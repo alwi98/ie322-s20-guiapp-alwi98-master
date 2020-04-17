@@ -50,8 +50,9 @@ namespace Alwi_S20_IE322_p1
             //messagebox.show("nothing ordered)";
         }
 
-
-
-
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.OK;
+        }
     }
 }

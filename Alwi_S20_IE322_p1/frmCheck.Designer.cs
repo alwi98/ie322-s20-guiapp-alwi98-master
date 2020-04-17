@@ -31,9 +31,9 @@
             this.btnShow = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.chkCoffee = new System.Windows.Forms.CheckBox();
-            this.chkDount = new System.Windows.Forms.CheckBox();
             this.chkBrownie = new System.Windows.Forms.CheckBox();
+            this.chkDount = new System.Windows.Forms.CheckBox();
+            this.chkCoffee = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,6 +55,7 @@
             this.btnBack.TabIndex = 1;
             this.btnBack.Text = "back";
             this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // groupBox1
             // 
@@ -68,15 +69,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
-            // chkCoffee
+            // chkBrownie
             // 
-            this.chkCoffee.AutoSize = true;
-            this.chkCoffee.Location = new System.Drawing.Point(17, 24);
-            this.chkCoffee.Name = "chkCoffee";
-            this.chkCoffee.Size = new System.Drawing.Size(69, 21);
-            this.chkCoffee.TabIndex = 0;
-            this.chkCoffee.Text = "Coffee";
-            this.chkCoffee.UseVisualStyleBackColor = true;
+            this.chkBrownie.AutoSize = true;
+            this.chkBrownie.Location = new System.Drawing.Point(17, 80);
+            this.chkBrownie.Name = "chkBrownie";
+            this.chkBrownie.Size = new System.Drawing.Size(78, 21);
+            this.chkBrownie.TabIndex = 2;
+            this.chkBrownie.Text = "Brownie";
+            this.chkBrownie.UseVisualStyleBackColor = true;
             // 
             // chkDount
             // 
@@ -88,15 +89,15 @@
             this.chkDount.Text = "Donut";
             this.chkDount.UseVisualStyleBackColor = true;
             // 
-            // chkBrownie
+            // chkCoffee
             // 
-            this.chkBrownie.AutoSize = true;
-            this.chkBrownie.Location = new System.Drawing.Point(17, 80);
-            this.chkBrownie.Name = "chkBrownie";
-            this.chkBrownie.Size = new System.Drawing.Size(78, 21);
-            this.chkBrownie.TabIndex = 2;
-            this.chkBrownie.Text = "Brownie";
-            this.chkBrownie.UseVisualStyleBackColor = true;
+            this.chkCoffee.AutoSize = true;
+            this.chkCoffee.Location = new System.Drawing.Point(17, 24);
+            this.chkCoffee.Name = "chkCoffee";
+            this.chkCoffee.Size = new System.Drawing.Size(69, 21);
+            this.chkCoffee.TabIndex = 0;
+            this.chkCoffee.Text = "Coffee";
+            this.chkCoffee.UseVisualStyleBackColor = true;
             // 
             // frmCheck
             // 
