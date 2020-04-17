@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alwi_S20_IE322_p1", "Alwi_S20_IE322_p1\Alwi_S20_IE322_p1.csproj", "{585981E2-0B38-4BB4-B991-A6DB716D4EB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{585981E2-0B38-4BB4-B991-A6DB716D4EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585981E2-0B38-4BB4-B991-A6DB716D4EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585981E2-0B38-4BB4-B991-A6DB716D4EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585981E2-0B38-4BB4-B991-A6DB716D4EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25877161-F024-4D60-81BB-3E9A95CE91FD}
+	EndGlobalSection
+EndGlobal
